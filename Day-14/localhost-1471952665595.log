@@ -1,0 +1,44 @@
+a=10;
+10
+typeof a;
+"number"
+a="Hello";
+"Hello"
+typeof a;
+"string"
+a=10;
+10
+b="10";
+"10"
+typeof a;
+"number"
+typeof b;
+"string"
+a==b
+true
+a===b;
+false
+"10"+10
+"1010"
+"10"-10
+0
+"10"*10
+100
+10/0
+Infinity
+10/0.0
+Infinity
+a=90.90;
+90.9
+typeof a;
+"number"
+a='h';
+"h"
+typeof a;
+"string"
+a="Hello";
+"Hello"
+typeof a;
+"string"
+1000 + true
+1001
