@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calc App</title>
+<script src="../js/calc.js"></script>
+<script src="../js/calccontroller.js"></script>
+</head>
+<body>
+<h1>Calc App</h1>
+<table>
+	<tr>
+		<td><label for="">FirstNo</label></td>
+		<td><input type="text" id="firstno" placeholder="Type First Number" /></td>
+	</tr>
+	<tr>
+		<td><label for="">SecondNo</label></td>
+		<td><input type="text" id="secondno" placeholder="Type Second Number" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<table>
+				<tr>
+					<!-- <td><button data-operation="addTwoNumbers" id="add">Add</button></td>
+					<td><button data-operation="subtract" id="subtract">Subtract</button></td>
+					<td><button data-operation="multiply" id="multiply">Multiply</button></td>
+					<td><button data-operation="divide" id="divide">Divide</button></td> -->
+					
+					<td><button data-operation="+" id="add">Add</button></td>
+					<td><button data-operation="-" id="subtract">Subtract</button></td>
+					<td><button data-operation="*" id="multiply">Multiply</button></td>
+					<td><button data-operation="/" id="divide">Divide</button></td>
+					<td><button data-operation="clear" id="clear">Clear</button></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<div>
+<h1>Result is <span id="result"></span></h1>
+</div>
+</body>
+</html>
