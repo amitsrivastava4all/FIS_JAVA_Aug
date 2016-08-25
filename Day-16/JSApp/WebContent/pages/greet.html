@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Greet App</title>
+<link rel="stylesheet" href="../css/design.css" />
+<script src="../js/utils.js"></script>
+<script src="../js/greet.js"></script>
+</head>
+<body>
+<h1>Greet App</h1>
+<!-- table>tr>(td>label{FirstName})+td>input[type='text' id='firstname'] -->
+<table>
+	<tr>
+		<td><label for="">FirstName</label></td>
+		<td><input type="text" id="firstname" placeholder="Type FirstName Here" /></td>
+	</tr>
+	<!-- tr>(td>label{LastName})+td>input[type='text' id='lastname'] -->
+	<tr>
+		<td><label for="">LastName</label></td>
+		<td><input type="text" id="lastname" placeholder="Type LastName Here" /></td>
+	</tr>
+	<!-- tr>(td>button)*2 -->
+	<tr>
+	<!-- <td><button onclick="greet()">Greet</button></td> -->
+		<td><button id="greetBt">Greet</button></td>
+		<td><button>Clear</button></td>
+	</tr>
+</table>
+
+<div>
+<h1 id="msg"></h1>
+</div>
+
+</body>
+</html>
